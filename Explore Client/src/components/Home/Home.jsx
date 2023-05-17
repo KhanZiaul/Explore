@@ -1,9 +1,9 @@
-import React from 'react';
+import Nav from '../Shared/Nav/Nav';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is Home</h2>
+        <div className='p-5'>
+            <Nav></Nav>
         </div>
     );
 };
